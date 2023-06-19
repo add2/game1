@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "rootDir": "./src/",
+    "strict": true,
+    "strictNullChecks": true,
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

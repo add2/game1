@@ -1,0 +1,56 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body {
+	background-color: #DDD;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	position: relative;
+	margin: auto auto;
+}
+
+.field {
+	position: relative;
+	background-image: url("img/bg.png");
+	border-style: inset;
+}
+
+.scoreboard {
+	position: relative;
+	margin-top: 1em;
+	border-style: outset;
+	text-align: center;
+}
+
+.item {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	transition: all 250ms linear;
+}
+.item.hero {
+	background: url("img/hero.png") no-repeat;
+	z-index: 100;
+}
+.item.diamond {
+	background: url("img/diamond.svg") no-repeat;
+	background-size: 20px;
+	z-index: 1;
+}
+.item.villain1 {
+	background: url("img/villain1.svg") no-repeat;
+	z-index: 101;
+}
+.item.villain2 {
+	background: url("img/villain2.svg") no-repeat;
+	z-index: 101;
+}
+.item.villain3 {
+	background: url("img/villain3.svg") no-repeat;
+	z-index: 101;
+}
